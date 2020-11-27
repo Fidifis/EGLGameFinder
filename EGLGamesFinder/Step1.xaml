@@ -1,0 +1,20 @@
+﻿<Page x:Class="EGLGamesFinder.Step1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EGLGamesFinder"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Step1" Loaded="Page_Loaded">
+
+    <Grid Background="White">
+        <Grid Width="600" Height="200" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Choose your Epic Games library folder" Margin="0,20,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="22"/>
+            <TextBox x:Name="Path" Text="C:\Program Files\Epic Games" Height="32" Margin="60,94,110,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Button Content="Browse" Margin="0,94,10,0" VerticalAlignment="Top" Height="32" HorizontalAlignment="Right" Width="95" Click="Browse_Click"/>
+
+        </Grid>
+        <Button Content="Next" Margin="0,0,33,32" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="Next_Click"/>
+    </Grid>
+</Page>

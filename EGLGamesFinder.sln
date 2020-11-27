@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGLGamesFinder", "EGLGamesFinder\EGLGamesFinder.csproj", "{AAC24A83-24AF-4765-B1BB-085A4168D3EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC24A83-24AF-4765-B1BB-085A4168D3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC24A83-24AF-4765-B1BB-085A4168D3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC24A83-24AF-4765-B1BB-085A4168D3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC24A83-24AF-4765-B1BB-085A4168D3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A31B85-E2EC-464F-9B99-EE6C11C24AA4}
+	EndGlobalSection
+EndGlobal
