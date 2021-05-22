@@ -29,7 +29,12 @@ namespace EGLGamesFinder
                         if (Directory.Exists(egstore))
                         {
                             string[] files = Directory.GetFiles(egstore);
-                            string mancpn = files.Single(s => s.EndsWith(".mancpn"));
+                            string mancpn;
+                            try
+                            {
+                                mancpn = files.Single(s => s.EndsWith(".mancpn"));
+                            }
+                            catch (Exception) { continue; }
                             string mancpnContent = File.ReadAllText(mancpn);
 
                             string guid = Path.GetFileNameWithoutExtension(mancpn);
